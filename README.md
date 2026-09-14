@@ -1,70 +1,25 @@
-Aula 01: Revisão do Node.js e NPM
-Este repositório contém o código e as anotações referentes à Aula 01 da Unidade Curricular de Codificação para Back-End (SENAI - AMAPÁ).
+# Codificação para Back-End
 
-Objetivos da Aula
-Compreender os conceitos do ecossistema Node.js e sua execução Server-Side.
-Validar e configurar o ambiente de desenvolvimento local.
-Inicializar um projeto Node.js utilizando o NPM (Node Package Manager).
-Desenvolver um script de diagnóstico utilizando o módulo nativo os para acessar recursos diretos do sistema operacional.
-💻 Conceitos Server-Side Aplicados
-Diferente da execução no navegador (Client-Side), onde o código é limitado ao DOM e à interface visual:
+![NodeJS](https://img.shields.io/badge/Node.js-v18%2B-green?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express-4.x-black?style=for-the-badge&logo=express)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?style=for-the-badge&logo=javascript)
 
-Acesso Direto ao Sistema Operacional: O Node.js permite interagir diretamente com o hardware, memória e sistema de arquivos.
-Execução via Terminal: O código é executado diretamente pelo runtime do Node.js através da linha de comando, sem necessidade de uma página HTML.
-Arquitetura Non-blocking I/O: Utilização do motor V8 e do Event Loop para processar instruções de forma performática.
-🚀 Passo a Passo da Prática
-1. Verificação do Ambiente
-Antes de iniciar a aplicação, confirmamos a instalação do Node.js e do NPM via terminal[cite: 2]:
 
-node -v
-npm -v
-Inicialização do Projeto
-Criamos o diretório do projeto e geramos o arquivo manifesto package.json:
+Repositório dedicado ao armazenamento de códigos, rotinas práticas, desafios e projetos desenvolvidos na Unidade Curricular de **Codificação para Back-End** do **SENAI - AMAPÁ**. 
 
-# Criar diretório do projeto
-mkdir aula01-diagnostico
+O objetivo principal deste repositório é consolidar os conhecimentos essenciais sobre o runtime **Node.js**, arquitetura de servidor, manipulação de arquivos, segurança, tratamento de exceções e construção de APIs RESTful.
 
-# Navegar até a pasta
-cd aula01-diagnostico
 
-# Inicializar o projeto Node.js com configurações padrão
-npm init -y
-Script de Diagnóstico do Sistema (diagnostico.js)
-Criamos um arquivo de script para mapear e exibir informações de hardware e sistema operacional.
 
-// Importação do módulo nativo OS (Operating System)
-const os = require('os');
+## Conteúdos e Módulos de Estudo
 
-console.log('=== 🖥️ DIAGNÓSTICO DO SISTEMA ===\n');
+- [x] **Aula 01: Revisão do Node.JS e NPM**
+  - Arquitetura do Node.js, Motor V8 e Event Loop (Call Stack, Microtasks, Macrotasks).
+  - Gerenciamento de pacotes com NPM e estrutura do `package.json`.
 
-// 1. Plataforma do Sistema Operacional
-console.log('Plataforma:', os.platform());
+## Tecnologias e Ferramentas
 
-// 2. Memória Total (convertida para GB)
-const totalMemGB = (os.totalmem() / 1024 / 1024 / 1024).toFixed(2);
-console.log(`Memória Total: ${totalMemGB} GB`);
-
-// 3. Memória Livre (convertida para GB)
-const freeMemGB = (os.freemem() / 1024 / 1024 / 1024).toFixed(2);
-console.log(`Memória Livre: ${freeMemGB} GB`);
-
-// 4. Detalhes das CPUs
-console.log('Quantidade de Núcleos (CPUs):', os.cpus().length);
-console.log('Modelo do Processador:', os.cpus()[0].model);
-Mapeamento dos Métodos do Módulo os
-os.platform(): Retorna uma string identificando a plataforma do sistema operacional (ex: win32, linux, darwin).
-
-os.totalmem(): Retorna a quantidade total de memória RAM física do sistema em bytes.
-
-os.freemem(): Retorna a quantidade de memória RAM livre/disponível no sistema em bytes.
-
-os.cpus(): Retorna um array contendo informações detalhadas sobre cada núcleo/CPU do sistema.
-
-Como Executar o Script
-Para rodar o script de diagnóstico, execute o comando abaixo no seu terminal:
-
-node diagnostico.js
-Observações Técnicas
-O módulo os é nativo do Node.js, ou seja, não há necessidade de instalá-lo via npm install[cite: 2].
-
-Este módulo demonstra na prática a diferença do JavaScript no servidor: ele possui acesso que seria bloqueado por navegadores por motivos de segurança.
+- **Runtime:** [Node.js](https://nodejs.org/)
+- **Framework Web:** [Express.js](https://expressjs.com/)
+- **Gerenciador de Dependências:** [NPM](https://www.npmjs.com/)
+- **Controle de Versão:** [Git](https://git-scm.com/) e [GitHub](https://github.com/)
