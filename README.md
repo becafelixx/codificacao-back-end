@@ -1,22 +1,33 @@
 # Codificação para Back-End
 
-Repositório destinado às atividades e projetos desenvolvidos na unidade curricular de **Codificação para Back-End**.
+Repositório destinado ao armazenamento das atividades, exercícios e projetos desenvolvidos durante a Unidade Curricular de **Codificação para Back-End** do **SENAI - AMAPÁ**.
 
-## Objetivos
+## Objetivo
 
-A unidade curricular tem como objetivo desenvolver conhecimentos relacionados à programação Back-End, trabalhando com a criação e organização da lógica responsável pelo funcionamento das aplicações.
+A unidade curricular tem como objetivo desenvolver conhecimentos relacionados à programação Back-End, utilizando **Node.js** para compreender o funcionamento de aplicações do lado do servidor.
 
-## Tecnologias Aplicadas
+Ao longo das aulas serão trabalhados conceitos como arquitetura de servidor, gerenciamento de pacotes, manipulação de arquivos, tratamento de exceções e desenvolvimento de APIs.
 
-* JavaScript
-* Node.js
+## Conteúdos e Módulos de Estudo
 
-## Ferramentas Utilizadas
+### Aula 01: Revisão do Node.js e NPM
 
-* Visual Studio Code
-* Git
-* GitHub
+- Arquitetura e funcionamento do Node.js;
+- Motor V8 e Event Loop;
+- Call Stack, Microtasks e Macrotasks;
+- Gerenciamento de pacotes com NPM;
+- Estrutura e utilização do `package.json`.
 
-## Conteúdos
+## Tecnologias e Ferramentas
 
-Neste repositório serão armazenadas as atividades, exercícios e projetos desenvolvidos durante a unidade curricular de Codificação para Back-End.
+- **JavaScript**
+- **Node.js**
+- **Express.js**
+- **NPM**
+- **Visual Studio Code**
+- **Git**
+- **GitHub**
+
+## Organização do Repositório
+
+Este repositório será atualizado ao longo da unidade curricular com os códigos, atividades práticas, desafios e projetos desenvolvidos durante as aulas.
