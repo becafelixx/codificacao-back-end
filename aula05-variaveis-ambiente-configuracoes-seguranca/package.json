@@ -1,0 +1,24 @@
+{
+  "name": "codificacao-back-end",
+  "version": "1.0.0",
+  "description": "![NodeJS](https://img.shields.io/badge/Node.js-v18%2B-green?style=for-the-badge&logo=node.js)\r ![Express](https://img.shields.io/badge/Express-4.x-black?style=for-the-badge&logo=express)\r ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?style=for-the-badge&logo=javascript)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becafelixx/codificacao-back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/becafelixx/codificacao-back-end/issues"
+  },
+  "homepage": "https://github.com/becafelixx/codificacao-back-end#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
