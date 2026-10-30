@@ -1,0 +1,14 @@
+{
+    "texto":"Viva está noite como se fosse a última",
+    "autor":"Rebeca Félix",
+    "data":"2026-10-21",
+    "curtidas":[
+    {"nome":"Ruan Melo"},
+    {"nome":"Letícia Moraes"},
+    {"nome":"Caio Ramos"}
+    ],
+    "comentários":[
+        {"nome":"Letícia Moraes", "comentario":"linda"},
+        {"nome":"Ruan Melo", "comentario":"perfeita"}
+    ]
+}
